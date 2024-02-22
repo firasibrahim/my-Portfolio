@@ -950,6 +950,8 @@ section {
   text-align: center;
   padding: 15px;
   font-weight: 600;
+  transition: opacity 0.3s ease;
+  border-radius: 8px;
 }
 
 .contact .php-email-form .loading {
@@ -1107,4 +1109,13 @@ section {
     width: auto;
     padding-right: 20px 15px;
   }
+}
+
+.message-transition {
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+
+.message-transition.active {
+  opacity: 1;
 }
