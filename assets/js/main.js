@@ -304,5 +304,8 @@
       });
 
     console.log(name.value, "here");
+    name.value = "";
+    email.value = "";
+    message.value = "";
   });
 })();
